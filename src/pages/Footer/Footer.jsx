@@ -50,7 +50,7 @@ return (
         <p className='font-[Antonio] font-normal text-[80px] mb-[20px] text-white max-xl:text-[48px]'>{data.name}</p>
         <p className='w-[350px] font-[Spartan] font-normal text-[14px] mb-[20px] text-[white] max-xl:text-[11px] max-xl:w-[339px] max-md:w-[327px] max-md:text-center'>{Buttonone ? data.overview.content : Buttontwo ? data.structure.content : Buttonthree ? data.geology.content : "#"}</p>
         <div className='flex items-center gap-[8px] mb-[30px]'>
-        <p className="font-[Spartan] font-normal text-[14px] tracking-[1px] text-[rgba(255,255,255,0.3)] max-xl:text-[12px]">Source: <a className="font-[700] underline text-[#ffffff]" target="_blank" href={Buttonone ? data.overview.source : Buttontwo ? data.structure.source : ThirdBTN ? data.geology.source : "#"}>Wikipedia</a></p>
+        <p className="font-[Spartan] font-normal text-[14px] tracking-[1px] text-[rgba(255,255,255,0.3)] max-xl:text-[12px]">Source: <a className="font-[700] underline text-[#ffffff]" target="_blank" href={Buttonone ? data.overview.source : Buttontwo ? data.structure.source : Buttonthree ? data.geology.source : "#"}>Wikipedia</a></p>
         <img className='' src={Picture} alt="" /> 
         </div>
       </div>
